@@ -30,6 +30,7 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
+```
 math.html
 
 
@@ -131,6 +132,7 @@ urlpatterns = [
     path('squarearea/',views.squarearea,name="squarearea"),
     path('',views.squarearea,name="squarearea")
 ]
+```
 
     
 
